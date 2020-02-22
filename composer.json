@@ -27,7 +27,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "DevelopingW\\CoreClass\\Abstracts\\Traits\\": "Core/Abstracts/Traits"
+      "DevelopingW\\CoreClass\\Abstracts\\Traits\\": "CoreClass/Abstracts/Traits"
     }
   }
 }
