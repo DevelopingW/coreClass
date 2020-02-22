@@ -1,0 +1,33 @@
+{
+  "name": "developing-w/core-class",
+  "description": "Core source code",
+  "keywords": ["php", "class", "trait"],
+  "homepage": "https://w-develop.com/",
+  "authors": [
+    {
+      "name": "Anton Kalochelitis",
+      "email": "developing.w@gmail.com"
+    }
+  ],
+  "type": "project",
+  "minimum-stability": "dev",
+  "license": "LGPL-3.0+",
+  "version": "0.0.1",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.1"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DevelopingW\\CoreClass\\Abstracts\\Traits\\": "Core/Abstracts/Traits"
+    }
+  }
+}
