@@ -36,13 +36,15 @@ trait TraitSetGetForClass
      *
      * @param $key
      *
-     * @return mixed
+     * @return null|mixed
      */
     public function __get($key)
     {
         if (isset($this->valueArray[$key])) {
             return $this->valueArray[$key];
         }
+
+        return null;
     }
 
     /**
