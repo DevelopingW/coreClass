@@ -8,6 +8,7 @@ namespace DevelopingW\CoreClass\Abstracts\Traits;
  * Трейт используем для создания объекта Singleton
  *
  * @package DevelopingW\CoreClass\Abstracts\Traits
+ * @author Anton Kalochelitis developing.w@gmail.com
  */
 trait SingletonPattern {
     /**

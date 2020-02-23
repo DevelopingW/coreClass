@@ -6,6 +6,7 @@ namespace DevelopingW\CoreClass\Abstracts\Traits;
  * Trait TraitSetGetForClass
  *
  * @package DevelopingW\CoreClass\Abstracts\Traits
+ *
  * @author Anton Kalochelitis developing.w@gmail.com
  */
 trait TraitSetGetForClass
